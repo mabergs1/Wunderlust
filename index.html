@@ -199,30 +199,34 @@
             <section id="form">
 
                 <h2>Contact Us</h2>
-                <div>
-                    <label for="fname">First Name<span class="required">*</span></label>
-                    <input id="name" type="text" placeholder="Enter First Name" autocomplete="name" aria-required="true">
-                    <label for="lname">Last Name<span class="required">*</span></label>
-                    <input id="name" type="text" placeholder="Enter Last Name" autocomplete="name" aria-required="true">
-                </div>
-                <div>
-                    <fieldset>
-                        <label>Contact Method<span class="required">*</span></label>
+                <div class="row">
+                    <div class="column">
+                        <label for="fname">First Name<span class="required">*</span></label>
+                        <input id="fname" type="text" placeholder="Enter First Name" autocomplete="name" aria-required="true">
+                        <label for="lname">Last Name<span class="required">*</span></label>
+                        <input id="lname" type="text" placeholder="Enter Last Name" autocomplete="name" aria-required="true">
+                    </div>
+                    <div class="column">                    
+                        <label>Contact Method<span class="required">*</span></label><br>
                         <input type="radio" name="Contact" value="email" checked>
                         <label for="email">Email</label>
                         <input type="radio" name="Contact" value="text">
                         <label for="text">Text</label>
                         <input type="radio" name="Contact" value="tel">
                         <label for="tel">Phone</label>
-                    </fieldset>
-                    <label for="email">Email Address<span class="required">*</span></label>
-                    <input id="email" type="email" placeholder="Enter Email" autocomplete="email" required aria-required="true">
-                    <label for="tel">Phone<span class="required">*</span>
-                    <input id="tel" type="tel" placeholder="Enter telephone number" autocomplete="tel" required aria-required="true"></label>
-                    Phone Number (Enter telephone number)
 
-Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
-Travel Time (Fall, Winter, Spring, Summer, Flexible)
+                        <label for="email">Email Address<span class="required">*</span></label>
+                        <input id="email" type="email" placeholder="Enter Email" autocomplete="email" required aria-required="true">
+                        <label for="tel">Phone<span class="required">*</span>
+                        <input id="tel" type="tel" placeholder="Enter telephone number" autocomplete="tel" required aria-required="true"></label>
+                    </div>
+                    <div class="column">
+                        <label for="destin">Destination<span class="required">*</span></label>			  	
+                        <select id="destin" name="select">
+    Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
+    Travel Time (Fall, Winter, Spring, Summer, Flexible)
+                    </div>
+                    </div>
             </section>
 </main>
 <footer>
