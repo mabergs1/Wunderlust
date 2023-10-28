@@ -200,13 +200,25 @@
 
                 <h2>Contact Us</h2>
                 <div>
-                First Name (Enter first name)
-                Last Name (Enter last name)
+                    <label for="fname">First Name<span class="required">*</span></label>
+                    <input id="name" type="text" placeholder="Enter First Name" autocomplete="name" aria-required="true">
+                    <label for="lname">Last Name<span class="required">*</span></label>
+                    <input id="name" type="text" placeholder="Enter Last Name" autocomplete="name" aria-required="true">
                 </div>
-
-Contact Method (Email, Text, Phone)
-Email Address (Enter Email)
-Phone Number (Enter telephone number)
+                <div>
+                    <fieldset>
+                        <label>Contact Method<span class="required">*</span></label>
+                        <input type="radio" name="Contact" value="email" checked>
+                        <label for="email">Email</label>
+                        <input type="radio" name="Contact" value="text">
+                        <label for="text">Text</label>
+                        <input type="radio" name="Contact" value="tel">
+                        <label for="tel">Phone</label>
+                    </fieldset>
+                    <label for="email">Email Address<span class="required">*</span></label>
+                      <input id="email" type="email" placeholder="Enter Email" autocomplete="email" aria-required="true">
+                    Email Address (Enter Email)
+                    Phone Number (Enter telephone number)
 
 Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
 Travel Time (Fall, Winter, Spring, Summer, Flexible)
