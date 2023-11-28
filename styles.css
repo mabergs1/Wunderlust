@@ -63,6 +63,20 @@ table {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+#skip{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width:1px;
+    height:1px;
+    overflow: hidden;
+}
+   
+#skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
 *{
     box-sizing: border-box;
     line-height: 1.35;
