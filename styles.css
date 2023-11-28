@@ -102,7 +102,7 @@ h1, h2, h3{
       height:auto;
       background-color: #f6d64a;
       border:2px solid #ffffff;
-      color: white;
+      color: black;
       width: 150px;
       cursor: pointer;
     }
@@ -114,12 +114,12 @@ h1, h2, h3{
     nav ul {
       display: none;
       position: absolute;
-      background-color: rgba(0,0,0,.85);
+      background-color: #499bd2;
       width:150px;
       z-index: 1;
     }
     nav a {
-      color: #ffffff;
+      color: #000000;
       visibility: visible;
       display:block;
       text-align:center;
