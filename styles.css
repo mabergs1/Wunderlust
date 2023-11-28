@@ -84,7 +84,7 @@ header{
 h1, h2, h3{
     font-family: 'Molle', cursive;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 2;
     text-align: center;
 }
 @media screen and (max-width:900px) {
