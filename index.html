@@ -195,18 +195,17 @@
                         </section>
                     </div>
                 </section>
-                <form id="form">
-
-                    <h3>Contact Us</h3>
-                    <div class="row">
-                        <div class="column">
+                <section id="contact">
+                    <h3>Contact Us <span class="form-required">*required</span></h3>
+                    <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+                        <div id="names">
                             <label for="fname">First Name<span class="required">*</span></label>
-                            <input id="fname" type="text" placeholder="Enter First Name" autocomplete="name" aria-required="true"><br>
+                            <input id="fname" type="text" placeholder="Enter First Name" autocomplete="given-name" required><br>
                             <label for="lname">Last Name<span class="required">*</span></label>
-                            <input id="lname" type="text" placeholder="Enter Last Name" autocomplete="name" aria-required="true">
+                            <input id="lname" type="text" placeholder="Enter Last Name" autocomplete="name" required>
                         </div>
-                        <div class="column">                    
-                            <label>Contact Method<span class="required">*</span></label><br>
+                        <div id="nums">                    
+                            <legend>Contact Method<span class="required">*</span></legend><br>
                             <input type="radio" name="Contact" value="email" checked>
                             <label for="email">Email</label>
                             <input type="radio" name="Contact" value="text">
