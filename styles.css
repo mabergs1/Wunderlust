@@ -67,4 +67,22 @@ table {
     box-sizing: border-box;
     line-height: 1.35;
 }
-
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-flow: column-wrap;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--teal);
+    background-image: linear-gradient(--teal,--light-gray);
+}
+h1, h2, h3{
+    font-family: 'Molle', cursive;
+    font-weight: bold;
+    
+}
