@@ -79,10 +79,10 @@ header{
     justify-content: center;
     padding: 1rem 0;
     background-color: var(--teal);
-    background-image: linear-gradient(--teal,--light-gray);
+    background-image: linear-gradient(#55bcd5,#eaeaea);
 }
 h1, h2, h3{
     font-family: 'Molle', cursive;
     font-weight: bold;
-    
+
 }
