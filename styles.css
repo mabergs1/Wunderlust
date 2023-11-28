@@ -113,7 +113,7 @@ h4, p, q{
     p {
       min-height:auto;
     }
-    #button {
+    #menu-toggle {
       visibility:visible;
       height:auto;
       background-color: #f6d64a;
