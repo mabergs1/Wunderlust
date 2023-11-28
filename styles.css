@@ -47,3 +47,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End Reset */
+:root{
+    --yellow: #f6d64a;
+    --teal: #55bcd5;
+    --purple: #9b26b0;
+    --blue: #499bd2;
+    --dark-gray: #222222;
+    --light-gray: #eaeaea;
+    --white: #ffffff;
+    --black: #000000;
+}
+
