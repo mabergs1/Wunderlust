@@ -85,6 +85,9 @@ body{
 header{
     background: linear-gradient(#55bcd5,#eaeaea);
 }
+header p{
+    padding: 5px 30px 15px;
+}
 body{
     color: var(--black);
     font-family: var(--montserratFont);
