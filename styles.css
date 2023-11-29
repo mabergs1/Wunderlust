@@ -303,6 +303,9 @@ form div{
 label span.required {
     color: var(--purple);
 }
+.form-required{
+    font-family: var(--monsterratFont);
+}
 #contact form label {
     text-transform: uppercase;
     font-weight: bold;
