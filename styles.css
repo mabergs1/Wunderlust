@@ -151,12 +151,11 @@ nav {
     display: inline-block;
     top:25px;
 }
-nav ul {
+#menu-toggle ul {
     display: none;
     position: absolute;
-    background-color: var(--blue);
-    width:150px;
-    z-index: 1;
+    background-color: var(--teal);
+    width: 100vw;
 }
 nav a {
     color: #000000;
