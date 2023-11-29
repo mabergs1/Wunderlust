@@ -196,3 +196,21 @@ nav {
     grid-column-end: -1;
     padding: 5px 30px 15px;
 }
+#plan{
+    background-color: var(--yellow);
+    padding-bottom: 20px;
+}
+#plan div{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+#plan h3{
+    padding: 30px 30px 10px;
+}
+#plan img{
+    width: 100%;
+}
+
