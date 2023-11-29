@@ -171,8 +171,12 @@ nav {
     text-transform: uppercase;
     color: var(--black);
 }
-nav:hover ul {
-    display: block;
-    width: 100%;
+#menu-toggle input:checked ~ ul, #menu-toggle input:checked ~ label {
+    display: flex;
+    flex-direction: column;
 }
-
+#menu-toggle input:checked ~ label {
+    color: var(--white);
+    background-color: var(--black);
+    align-items: center;
+}
