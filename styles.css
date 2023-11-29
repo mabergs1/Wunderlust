@@ -485,4 +485,19 @@ footer{
         flex-direction: row;
         justify-content: space-between;
     }
+    #mySubmit{
+        font-size: var(--font-size);
+        position: relative;
+        top: 30px;
+        right: -30vw;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-items: center;
+        font-size: 9pt;
+        gap: 15px;
+    }
 }
