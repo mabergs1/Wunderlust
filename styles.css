@@ -222,3 +222,13 @@ nav {
     padding: 10px;
     border: 3px solid var(--white);
 }
+#testimonials section{
+    display: grid;
+    margin: 15px;
+    justify-items: center;
+}
+q{
+    text-align: center;
+    font-style: italic;
+}
+
