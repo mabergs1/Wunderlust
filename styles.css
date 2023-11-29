@@ -202,12 +202,12 @@ p, q, nav a, form {
   /*  * Change the color of the hamburger when toggled */
 #menu-toggle input:checked + label div {
     background: #232323;
-  }
+}
   
   /*
    * Use absolute positioning to place the menu off-screen
    */
-  #menu {
+#menu {
     position: absolute;
     width: 300px;
     margin: -100px 0 0 -50px;
@@ -220,17 +220,17 @@ p, q, nav a, form {
     -webkit-transition: left 0.3s ease;
     -o-transition: left 0.3s ease;
     transition: left 0.3s ease; 
-  }
+}
   
-  #menu li {
+#menu li {
     padding: 10px 0;
     font-size: 22px;
-  }
+}
   
   /*
    * Slide the menu in from left when the input is checked
    */
-  #menu-toggle input:checked ~ ul {
+#menu-toggle input:checked ~ ul {
     left: 0;
-  }
+}
   
