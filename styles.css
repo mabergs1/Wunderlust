@@ -115,14 +115,14 @@ h4{
 h4, p, q{
     font-size: 20pt;
 }
-p, q, nav a, form {
+p, q, nav a, form{
     font-family: var(--monsterratFont);
 }
 #logo img{
     padding-top: 10vw;
     max-width: 50vw;
 }
-.sr-only {
+.sr-only{
     position: absolute;
     left: -10000px;
     top: auto;
@@ -130,49 +130,49 @@ p, q, nav a, form {
     height: 1px;
     overflow: hidden;
 }
-#menu-toggle {
+#menu-toggle{
     position: absolute;
     top: 40px;
     right: 0;
     user-select: none;
 }
-#menu-toggle label {
+#menu-toggle label{
     background-color: var(--yellow);
     padding: 10px 60px;
     font-weight: bold;
 }
-#menu-toggle input {
+#menu-toggle input{
     display: none;
 }
-nav {
+nav{
     display: grid;
     top:25px;
     justify-items: center;
     grid-column: 1/-1;
 }
-#menu-toggle ul {
+#menu-toggle ul{
     display: none;
     position: relative;
     background-color: var(--teal);
     width: 100vw;
 }
-#menu-toggle li {
+#menu-toggle li{
     display: flex;
     height: 10vh;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--black);
 }
-#menu-toggle li a {
+#menu-toggle li a{
     text-decoration: none;
     text-transform: uppercase;
     color: var(--black);
 }
-#menu-toggle input:checked ~ ul, #menu-toggle input:checked ~ label {
+#menu-toggle input:checked ~ ul, #menu-toggle input:checked ~ label{
     display: flex;
     flex-direction: column;
 }
-#menu-toggle input:checked ~ label {
+#menu-toggle input:checked ~ label{
     color: var(--white);
     background-color: var(--black);
     align-items: center;
@@ -187,12 +187,12 @@ nav {
     height: auto;
     object-fit: cover;
 }
-#intro h2 {
+#intro h2{
     grid-column-start: 1;
     grid-column-end: -1;
     padding: 50px 5px 30px 15px;
 }
-#intro p {
+#intro p{
     grid-column-start: 1;
     grid-column-end: -1;
     padding: 5px 30px 15px;
@@ -300,13 +300,13 @@ form div{
 #contact form input, #contact select{
     height: 5vh;
 }
-label span.required {
+label span.required{
     color: var(--purple);
 }
 .form-required{
     font-family: var(--monsterratFont);
 }
-#contact form label {
+#contact form label{
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -320,10 +320,10 @@ label span.required {
     width: 40px;
     height: 40px;
 }
-span.radio-label {
+span.radio-label{
     margin-left: 5px;
 }
-#contact label[for^="pref"] {
+#contact label[for^="pref"]{
     display: flex;
     align-items: center;
 }
@@ -338,7 +338,7 @@ fieldset {
     text-transform: uppercase;
     margin-top: 10px;
 }
-footer {
+footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -348,7 +348,7 @@ footer {
     padding: 10px;
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 680px){
     header{
         display: grid;
         grid-template-columns: 20vw 1fr;
@@ -375,7 +375,7 @@ footer {
         max-width: 80%;
         padding-top: 100px;
     }
-    nav {
+    nav{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -383,7 +383,7 @@ footer {
         margin-top: 5vh;
         justify-items: center;
     }
-    #menu-toggle {
+    #menu-toggle{
         align-items: center;
         position: static;
     }
@@ -394,31 +394,31 @@ footer {
         width: 80vw;
         background-color: transparent;
     }
-    #menu-toggle li {
+    #menu-toggle li{
         background-color: var(--light-gray);
         height: 8vh;
         font-weight: bold;
         border: none;
     }
-    #menu-toggle .active {
+    #menu-toggle .active{
         background-color: var(--yellow);
     }
-    #menu-toggle li:hover {
+    #menu-toggle li:hover{
         background-color: var(--yellow);
     }
     #toggle, label[for="toggle"]{
         display: none;
     }
-    #intro {
+    #intro{
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0 8vw;
     }
-    #intro p {
+    #intro p{
         padding: 0 10px 0 0;
     }
-    #intro h2 {
+    #intro h2{
         padding: 5vw 0 0;
     }
     #img-grid{
@@ -428,4 +428,15 @@ footer {
         padding-bottom: 3rem;
         gap: 10px;
     }
+    #img-grid picture{
+        grid-column: 1/-1;
+    }
+    #img-grid img:first-child{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #img-grid img:nth-child(2){
+        grid-column: 1;
+    }
+
 }
