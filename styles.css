@@ -468,7 +468,7 @@ footer{
         padding: 0;
     }
     #contact{
-        margin: 0 10vw;
+        margin: 10vw 10vw;
     }
     #contact h3{
         display: flex;
@@ -493,7 +493,7 @@ footer{
         top: 30px;
         right: -30vw;
         width: 50%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     footer{
         display: grid;
@@ -591,7 +591,7 @@ footer{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
         width: 90%;
-        margin: 0;
+        margin: 5px;
     }
     #mySubmit{
         right: -10vw;
