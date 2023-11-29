@@ -176,3 +176,23 @@ nav {
     background-color: var(--black);
     align-items: center;
 }
+#img-grid picture{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} 
+#img-grid img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#intro h2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: 5px 30px 15px;
+}
+#intro p {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: 5px 30px 15px;
+}
