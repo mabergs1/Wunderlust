@@ -128,7 +128,7 @@ p, q, nav a, form {
     height: 1px;
     overflow: hidden;
 }
-#menuToggle {
+#menu-toggle {
     display: block;
     position: relative;
     top: 50px;
@@ -139,18 +139,18 @@ p, q, nav a, form {
      -ms-user-select: none;
          user-select: none;
 }  
-#menuToggle a {
+#menu-toggle a {
     text-decoration: none;
     color: #232323;
     -webkit-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }  
-#menuToggle a:hover {
+#menu-toggle a:hover {
     color: #4f7794;
 } 
   /* The hamburger button hidden inside an input element */
-#menuToggle input {
+#menu-toggle input {
     display: block;
     width: 30px;
     height: 30px;
@@ -163,17 +163,17 @@ p, q, nav a, form {
     z-index: 2; /* and place it over the hamburger */  
     -webkit-touch-callout: none;
 }  
-#menuToggle label {
+#menu-toggle label {
     position: relative;
     display: block;
     width: 30px;
     height: 30px;
 }
-#menuToggle label span {
+#menu-toggle label span {
     display: none;
 }  
   /*  * Hamburger */
-#menuToggle label div {
+#menu-toggle label div {
     display: block;
     width: 30px;
     height: 2px;
@@ -189,18 +189,18 @@ p, q, nav a, form {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-#menuToggle label div:first-child {
+#menu-toggle label div:first-child {
     -webkit-transform-origin: 0% 100%;
         -ms-transform-origin: 0% 100%;
             transform-origin: 0% 100%;
 }
-#menuToggle label div:nth-child(2) {
+#menu-toggle label div:nth-child(2) {
       -webkit-transform-origin: 0% 0%;
         -ms-transform-origin: 0% 0%;
             transform-origin: 0% 0%;
 }
   /*  * Change the color of the hamburger when toggled */
-#menuToggle input:checked + label div {
+#menu-toggle input:checked + label div {
     background: #232323;
   }
   
@@ -230,7 +230,7 @@ p, q, nav a, form {
   /*
    * Slide the menu in from left when the input is checked
    */
-  #menuToggle input:checked ~ ul {
+  #menu-toggle input:checked ~ ul {
     left: 0;
   }
   
