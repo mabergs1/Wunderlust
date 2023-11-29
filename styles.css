@@ -517,6 +517,12 @@ footer{
         position: absolute;
         margin: 0;
     }
-
+    #menu-toggle li{
+        height: 5vh;
+    }
+    #menu-toggle ul{
+        width: 50vw;
+    }
+    
 }
 
