@@ -574,5 +574,37 @@ footer{
     #about div{
         gap: 40px;
     }
+    #contact h3{
+        grid-column: 1/-1;
+        margin: 0;
+        padding:  10vh 0 0;
+    }
+    #contact fieldset{
+        max-width: 100%;
+        min-width: 100%;
+    }
+    #contact form input, select{
+        height: 5vh;
+    }
+    #contact form{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        width: 90%;
+        margin: 0;
+    }
+    #mySubmit{
+        right: -10vw;
+    }
+    footer{
+        grid-template-columns: 1fr 12% 20%;
+        justify-items: start;
+    }
+    footer p{
+        margin-left: 10vw;
+    }
+    footer a:last-child{
+        margin-right: 10vw;
+    }
 }
 
