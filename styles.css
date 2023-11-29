@@ -143,10 +143,10 @@ p, q, nav a, form {
 #menu-toggle {
     visibility:visible;
     height:auto;
-    background-color: #f6d64a;
+    background-color: var(--yellow);
     border:2px solid #ffffff;
     color: black;
-    width: 150px;
+    width: 50%;
     cursor: pointer;
 }
 nav {
