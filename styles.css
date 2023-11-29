@@ -425,7 +425,7 @@ footer{
         grid-template-columns: 40vw 40vw;
         grid-template-rows: 50% 50%;
         overflow: hidden;
-        padding-bottom: 3rem;
+        padding-bottom: 40px;
         gap: 10px;
     }
     #img-grid picture{
