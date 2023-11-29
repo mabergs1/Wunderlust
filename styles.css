@@ -132,7 +132,7 @@ p, q, nav a, form {
     display: block;
     position: relative;
     top: 50px;
-    left: 50px;  
+    right: 0px;  
     z-index: 1;  
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -141,13 +141,13 @@ p, q, nav a, form {
 }  
 #menu-toggle a {
     text-decoration: none;
-    color: #232323;
+    color: var(--black);
     -webkit-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }  
 #menu-toggle a:hover {
-    color: #4f7794;
+    color: var(--yellow);
 } 
   /* The hamburger button hidden inside an input element */
 #menu-toggle input {
