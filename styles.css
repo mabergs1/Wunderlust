@@ -58,10 +58,10 @@ table {
     --light-gray: #eaeaea;
     --white: #ffffff;
     --black: #000000;
-    font-size: 16px;
+    --font-size: 16px;
 	--molleFont: 'Molle', cursive;
     --montserratFont: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+    --box-sizing: border-box;
 }
 #skip{
     position: absolute;
@@ -270,5 +270,34 @@ q{
 #about img{
     width: 100px;
     height: 100px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+#contact input, #contact select{
+    color: var(--dark-gray);
+    background-color: transparent;
+    border: 2px solid var(--purple);
+}
+#contact h3{
+    display: flex;
+    padding: 25px;
+}
+#contact h3 span{
+    padding-left: 10px;
+    font-style: italic;
+    font-family: var(--monsterratFont);
+}
+form{
+    display: grid;
+    margin: 0 10vw;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+#contact form input, #contact select{
+    height: 5vh;
 }
 
