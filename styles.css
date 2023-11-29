@@ -231,4 +231,7 @@ q{
     text-align: center;
     font-style: italic;
 }
+#testimonials p, #testimonials h4{
+    margin-top: 10px;
+}
 
