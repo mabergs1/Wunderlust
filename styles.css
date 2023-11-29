@@ -96,7 +96,7 @@ body{
     font-family: var(--montserratFont);
 }
 h1, h2, h3{
-    font-family: 'Molle', cursive;
+    font-family: var(--molleFont);
     font-weight: bold;
     line-height: 2;
     text-align: center;
