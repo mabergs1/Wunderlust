@@ -240,5 +240,8 @@ q{
     padding: 30px 30px 15px;
 }
 #about{
-    
+    display: grid;
+    background-color: var(--blue);
+    justify-content: center;
 }
+
