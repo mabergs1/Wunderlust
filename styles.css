@@ -234,4 +234,11 @@ q{
 #testimonials p, #testimonials h4{
     margin-top: 10px;
 }
-
+#testimonials h3{
+    display: grid;
+    justify-self: left;
+    padding: 30px 30px 15px;
+}
+#about{
+    
+}
