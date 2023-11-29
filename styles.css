@@ -300,4 +300,23 @@ form div{
 #contact form input, #contact select{
     height: 5vh;
 }
-
+label span.required {
+    color: var(--purple);
+}
+#contact form label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#contact input[type="radio"]{
+    accent-color: var(--purple);
+    margin: 0 0 4px 2px;
+    width: 40px;
+    height: 40px;
+}
+#contact span.radio-input{
+    width: 40px;
+    height: 40px;
+}
+span.radio-label {
+    margin: 0 0 0 5px
+}
