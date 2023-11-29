@@ -138,23 +138,19 @@ p, q, nav a, form {
     -moz-user-select: none;
      -ms-user-select: none;
          user-select: none;
-  }
-  
-  #menuToggle a {
+}  
+#menuToggle a {
     text-decoration: none;
     color: #232323;
     -webkit-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
-  }
-  
-  #menuToggle a:hover {
+}  
+#menuToggle a:hover {
     color: #4f7794;
-  }
-  
-  
+} 
   /* The hamburger button hidden inside an input element */
-  #menuToggle input {
+#menuToggle input {
     display: block;
     width: 30px;
     height: 30px;
@@ -166,22 +162,18 @@ p, q, nav a, form {
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */  
     -webkit-touch-callout: none;
-  }
-  
-  #menuToggle label {
+}  
+#menuToggle label {
     position: relative;
     display: block;
     width: 30px;
     height: 30px;
-  }
-  #menuToggle label span {
+}
+#menuToggle label span {
     display: none;
-  }
-  
-  /*
-   * Hamburger
-   */
-  #menuToggle label div {
+}  
+  /*  * Hamburger */
+#menuToggle label div {
     display: block;
     width: 30px;
     height: 2px;
@@ -196,24 +188,19 @@ p, q, nav a, form {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
-  
-  #menuToggle label div:first-child {
+}
+#menuToggle label div:first-child {
     -webkit-transform-origin: 0% 100%;
         -ms-transform-origin: 0% 100%;
             transform-origin: 0% 100%;
-  }
-  
-  #menuToggle label div:nth-child(2) {
+}
+#menuToggle label div:nth-child(2) {
       -webkit-transform-origin: 0% 0%;
         -ms-transform-origin: 0% 0%;
             transform-origin: 0% 0%;
-  }
-  
-  /* 
-   * Change the color of the hamburger when toggled
-   */
-  #menuToggle input:checked + label div {
+}
+  /*  * Change the color of the hamburger when toggled */
+#menuToggle input:checked + label div {
     background: #232323;
   }
   
