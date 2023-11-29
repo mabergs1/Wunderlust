@@ -59,8 +59,8 @@ table {
     --white: #ffffff;
     --black: #000000;
     font-size: 16px;
-	font-family: 'Molle', cursive;
-    font-family: 'Montserrat', sans-serif;
+	--molleFont: 'Molle', cursive;
+    --montserratFont: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 #skip{
@@ -90,6 +90,9 @@ header{
     padding: 1rem 0;
     background-color: var(--teal);
     background-image: linear-gradient(#55bcd5,#eaeaea);
+}
+body{
+    font-family: var(--montserratFont);
 }
 h1, h2, h3{
     font-family: 'Molle', cursive;
