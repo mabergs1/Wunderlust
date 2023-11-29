@@ -189,7 +189,7 @@ nav {
 #intro h2 {
     grid-column-start: 1;
     grid-column-end: -1;
-    padding: 5px 30px 15px;
+    padding: 50px 5px 30px 15px;
 }
 #intro p {
     grid-column-start: 1;
