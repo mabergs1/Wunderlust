@@ -348,3 +348,84 @@ footer {
     padding: 10px;
 }
 
+@media screen and (min-width: 680px) {
+    header{
+        display: grid;
+        grid-template-columns: 20vw 1fr;
+        grid-template-rows: repeat(2, auto);
+    }
+    #logo img{
+        align-items: center;
+        max-width: 30vw;
+    }
+    header h1, header p{
+        display: grid;
+        grid-column: 2/-1;
+        grid-row: 1/2;
+    }
+    header h1{
+        position: relative;
+        font-size: 50pt;
+        top: 35%;
+    }
+    header p{
+        font-size: 20pt;
+        position: relative;
+        top: 50%;
+        max-width: 80%;
+        padding-top: 100px;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: var(--white);
+        margin-top: 5vh;
+        justify-items: center;
+    }
+    #menu-toggle {
+        align-items: center;
+        position: static;
+    }
+    #menu-toggle ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        width: 80vw;
+        background-color: transparent;
+    }
+    #menu-toggle li {
+        background-color: var(--light-gray);
+        height: 8vh;
+        font-weight: bold;
+        border: none;
+    }
+    #menu-toggle .active {
+        background-color: var(--yellow);
+    }
+    #menu-toggle li:hover {
+        background-color: var(--yellow);
+    }
+    #toggle, label[for="toggle"]{
+        display: none;
+    }
+    #intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 8vw;
+    }
+    #intro p {
+        padding: 0 10px 0 0;
+    }
+    #intro h2 {
+        padding: 5vw 0 0;
+    }
+    #img-grid{
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 50% 50%;
+        overflow: hidden;
+        padding-bottom: 3rem;
+        gap: 10px;
+    }
+}
