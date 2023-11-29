@@ -129,10 +129,16 @@ p, q, nav a, form {
     overflow: hidden;
 }
 #menu-toggle {
+    visibility: visible;
+    height: auto;
     position: absolute;
     top: 40px;
     right: 0;
     user-select: none;
+    border: 2px solid var(--white);
+    color: var(--black);
+    width: 50%;
+    cursor: pointer;
 }
 #menu-toggle label {
     background-color: var(--yellow);
@@ -140,15 +146,6 @@ p, q, nav a, form {
     font-weight: bold;
 }
 
-#menu-toggle {
-    visibility:visible;
-    height:auto;
-    background-color: var(--yellow);
-    border:2px solid #ffffff;
-    color: black;
-    width: 50%;
-    cursor: pointer;
-}
 nav {
     position: relative;
     display: inline-block;
@@ -157,7 +154,7 @@ nav {
 nav ul {
     display: none;
     position: absolute;
-    background-color: #499bd2;
+    background-color: var(--blue);
     width:150px;
     z-index: 1;
 }
@@ -172,5 +169,6 @@ nav li {
 }
 nav:hover ul {
     display: block;
+    width: 100%;
 }
 
