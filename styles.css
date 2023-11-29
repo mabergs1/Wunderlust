@@ -318,5 +318,30 @@ label span.required {
     height: 40px;
 }
 span.radio-label {
-    margin: 0 0 0 5px
+    margin-left: 5px;
 }
+#contact label[for^="pref"] {
+    display: flex;
+    align-items: center;
+}
+fieldset {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#mySubmit{
+    color: var(--white);
+    background-color: var(--purple);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    margin-top: 5px;
+    padding: 10px;
+}
+
