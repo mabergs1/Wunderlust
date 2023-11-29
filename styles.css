@@ -132,8 +132,6 @@ p, q, nav a, form {
     top: 40px;
     right: 0;
     user-select: none;
-    width: 50%;
-    cursor: pointer;
 }
 #menu-toggle label {
     background-color: var(--yellow);
@@ -243,5 +241,31 @@ q{
     display: grid;
     background-color: var(--blue);
     justify-content: center;
+}
+#about div{
+    display: grid;
+    margin-bottom: 30px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 15px;
+}
+#about section{
+    display: grid;
+    grid-column: span 1;
+    justify-items: center;
+    align-items: center;
+}
+#about h3{
+    display: flex;
+    line-height: 1;
+    padding: 25px;
+}
+#about p{
+    line-height: .5;
+    padding-bottom: 15px;
+}
+#about img{
+    width: 100px;
+    height: 100px;
 }
 
